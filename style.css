@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&family=Noto+Sans:ital,wght@0,100;1,100&family=Press+Start+2P&family=Ubuntu&display=swap');
+
 * {
-    font-family: url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+    /* font-family: 'Press Start 2P', sans-serif; */
     margin: 0px;
     padding: 0px;
 }
@@ -7,5 +9,6 @@
 /* header */
 header {
     border: 2px solid black;
-    height: 100px;
+    height: 40vh;
 }
+
