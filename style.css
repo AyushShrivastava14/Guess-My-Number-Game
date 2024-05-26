@@ -1,14 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&family=Noto+Sans:ital,wght@0,100;1,100&family=Press+Start+2P&family=Ubuntu&display=swap');
 
 * {
-    /* font-family: 'Press Start 2P', sans-serif; */
+    font-family: 'Press Start 2P', sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
-/* header */
-header {
-    border: 2px solid black;
-    height: 40vh;
+body {
+    color: #eee;
+    background-color: #222;
 }
 
+/* header */
+header {
+    border-bottom: 10px solid white;
+    height: 32vh;
+}
+
+.btn-again {
+    border: none;
+    margin: 20px 30px;
+    padding: 20px 20px;
+    width: 115px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.between {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+.number {
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+#number-parent {
+    display: flex;
+    justify-content: center;
+} 
+
+.left {
+    float: left;
+    margin: 115px 100px 150px 250px;
+}
+
+.right {
+    float: right;
+    margin: 120px 220px 150px 100px;
+}
+
+.guess {
+    height: 15vh;
+    width: 200px;
+    border: 5px solid white;
+    background-color: #222;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.btn-check {
+    margin-top: 30px;
+    width: 210px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.message {
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+.label-score {
+    margin-bottom: 25px;
+}
