@@ -11,7 +11,6 @@ body {
     background-color: #222;
 }
 
-/* header */
 header {
     border-bottom: 10px solid white;
     height: 32vh;
@@ -24,6 +23,7 @@ header {
     width: 115px;
     background-color: white;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .between {
@@ -37,15 +37,15 @@ h1 {
 }
 
 .number {
-    margin-top: 57px;
-    height: 100px;
-    width: 100px;
+    margin-top: 40px;
+    height: 150px;
+    width: 150px;
     background-color: white;
     color: #222;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 55px;
 }
 
 #number-parent {
@@ -55,12 +55,14 @@ h1 {
 
 .left {
     float: left;
-    margin: 115px 100px 150px 250px;
+    margin: 150px 100px 150px 250px;
 }
 
 .right {
     float: right;
-    margin: 120px 220px 150px 100px;
+    margin: 150px 200px 150px 100px;
+    padding: 20px;
+    width: 350px;
 }
 
 .guess {
@@ -80,13 +82,19 @@ h1 {
     padding: 20px 20px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
 }
 
 .message {
     margin-bottom: 50px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .label-score {
     margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.label-highscore {
+    font-size: 20px;
 }
