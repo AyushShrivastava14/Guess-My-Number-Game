@@ -17,7 +17,12 @@ document.querySelector('.btn-check').addEventListener('click', function() {
         // document.querySelector('.message').textContent = '⛔️ No number!';
         displayMessage('⛔️ No number!');
     }
-    else if(guess === random_no && score !== 0) {
+    else if (score === 1) {
+        score = 0;
+        displayMessage('LOSER! HAHAHA');
+        document.querySelector('.label-score').textContent = '💯 Score: ' + score;
+    }
+    else if(guess === random_no) {
         number.textContent = random_no;
         document.querySelector('body').style.backgroundColor = '#60b347';
         displayMessage('🎉 Correct Number!');
@@ -28,13 +33,10 @@ document.querySelector('.btn-check').addEventListener('click', function() {
             document.querySelector('.label-highscore').textContent = '🥇 Highscore: ' + highscore;
         }
     }
-    else if(guess !== random_no && score !== 0) {
+    else if(guess !== random_no) {
         displayMessage(guess > random_no ? '📈 Too high!' : '📉 Too low!');
         score--;
         document.querySelector('.label-score').textContent = '💯 Score: ' + score;
-    }
-    else if (score === 0) {
-        displayMessage('LOSER! HAHAHA');
     }
     else {
         displayMessage('No Number Entered');
